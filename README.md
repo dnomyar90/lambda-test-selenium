@@ -22,3 +22,6 @@ Lambda Test Selenium
 2. testID=HNBZM-GMJCG-3T9JJ-SJEIG
 3. testID=58WDQ-PYHMO-KGTUM-FH725
 4. testID=KNRA8-QZC8X-NIGZ7-QGLYQ
+
+# Gitpod URL
+https://dnomyar90-lambdatestsele-c3gkuio1khd.ws-us27.gitpod.io
