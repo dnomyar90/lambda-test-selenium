@@ -1,0 +1,282 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 437666589,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Valid Login",
+        "description": "",
+        "id": "lambda-test-checkers;valid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 83217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78825094239,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to Homepage",
+            "match": {
+              "location": "LambdaTestSteps.givenIGoToHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 536168885,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see correct title page for Homepage",
+            "match": {
+              "location": "LambdaTestSteps.assertPageTitleHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27158902411,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login with valid credential",
+            "match": {
+              "location": "LambdaTestSteps.loginValidCred()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 480621366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "lambda-test-checkers;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 26377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4951038188,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to Homepage",
+            "match": {
+              "location": "LambdaTestSteps.givenIGoToHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432879705,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see correct title page for Homepage",
+            "match": {
+              "location": "LambdaTestSteps.assertPageTitleHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22701076241,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login with invalid credential",
+            "match": {
+              "location": "LambdaTestSteps.loginInvalidCred()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 430572828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Checkout item",
+        "description": "",
+        "id": "lambda-test-checkers;checkout-item",
+        "after": [
+          {
+            "result": {
+              "duration": 22826,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4504054013,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I go to Homepage",
+            "match": {
+              "location": "LambdaTestSteps.givenIGoToHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23488830351,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I login with valid credential",
+            "match": {
+              "location": "LambdaTestSteps.loginValidCred()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40395585674,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add products to cart",
+            "match": {
+              "location": "LambdaTestSteps.addProductsToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20666764700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I proceed to checkout without checking TOC",
+            "match": {
+              "location": "LambdaTestSteps.checkoutWithoutTOC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5040431967,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see TOC warning",
+            "match": {
+              "location": "LambdaTestSteps.checkTOCWarning()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7465292073,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I proceed to checkout after checking TOC",
+            "match": {
+              "location": "LambdaTestSteps.checkoutWithTOC()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1512649579,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be at payment section",
+            "match": {
+              "location": "LambdaTestSteps.checkPaymentModules()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7221050435,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I logout from website",
+            "match": {
+              "location": "LambdaTestSteps.logoutFromSite()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Lambda Test Checkers",
+    "description": "",
+    "id": "lambda-test-checkers",
+    "keyword": "Feature",
+    "uri": "DemoWebsite.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@lambdatest"
+      }
+    ]
+  }
+]

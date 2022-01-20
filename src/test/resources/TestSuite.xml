@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lambda Test" parallel="tests" verbose="1" configfailurepolicy="continue" thread-count="4">
+    <listeners>
+        <listener class-name="cucumber.lambdatest.java.testNG.InvocationHooks" />
+    </listeners>
+
+     <test name="Tests in Chrome 88 Windows 10" >
+        <parameter name="browserName" value="Chrome" />
+        <parameter name="browserVersion" value="88.0" />
+        <parameter name="operatingSystem" value="Windows 10" />
+        <classes>
+            <class name="cucumber.lambdatest.java.testNG.runners.RunnerFeatures"/>
+        </classes>
+    </test>
+
+    <test name="Tests in Edge 87 Mac Os Sierra" >
+        <parameter name="browserName" value="MicrosoftEdge" />
+        <parameter name="browserVersion" value="87.0" />
+        <parameter name="operatingSystem" value="macOS Sierra" />
+        <classes>
+            <class name="cucumber.lambdatest.java.testNG.runners.RunnerFeatures"/>
+        </classes>
+    </test>
+
+       <test name="Tests in Internet Explorer 11 Windows 10" >
+        <parameter name="browserName" value="Internet Explorer" />
+        <parameter name="browserVersion" value="11.0" />
+        <parameter name="operatingSystem" value="Windows 10" />
+        <classes>
+            <class name="cucumber.lambdatest.java.testNG.runners.RunnerFeatures"/>
+        </classes>
+    </test>
+
+        <test name="Tests in Firefox 82 Windows 7" >
+        <parameter name="browserName" value="Firefox" />
+        <parameter name="browserVersion" value="82.0" />
+        <parameter name="operatingSystem" value="Windows 7" />
+        <classes>
+            <class name="cucumber.lambdatest.java.testNG.runners.RunnerFeatures"/>
+        </classes>
+    </test>
+</suite>

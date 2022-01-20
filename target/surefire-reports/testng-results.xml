@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: DemoWebsite.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Lambda Test Checkers</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Valid Login</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I go to Homepage (passed : 78s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I should see correct title page for Homepage (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I login with valid credential (passed : 27s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Invalid Login</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I go to Homepage (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I should see correct title page for Homepage (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I login with invalid credential (passed : 22s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Checkout item</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I go to Homepage (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I login with valid credential (passed : 23s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I add products to cart (passed : 40s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I proceed to checkout without checking TOC (passed : 20s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I should see TOC warning (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I proceed to checkout after checking TOC (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I should be at payment section (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I logout from website (passed : 7s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Lambda Test" duration-ms="257432" started-at="2022-01-20T03:33:23Z" finished-at="2022-01-20T03:37:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:cucumber.lambdatest.java.testNG.runners.RunnerFeatures@880ec60]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tests in Firefox 82 Windows 7" duration-ms="257432" started-at="2022-01-20T03:33:23Z" finished-at="2022-01-20T03:37:41Z">
+      <class name="cucumber.lambdatest.java.testNG.runners.RunnerFeatures">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:cucumber.lambdatest.java.testNG.runners.RunnerFeatures@880ec60]" name="run_cukes" duration-ms="256631" started-at="2022-01-20T11:33:23Z" description="Runs Cucumber Features" finished-at="2022-01-20T11:37:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: DemoWebsite.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Lambda Test Checkers</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Valid Login</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I go to Homepage (passed : 78s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I should see correct title page for Homepage (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I login with valid credential (passed : 27s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Invalid Login</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I go to Homepage (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I should see correct title page for Homepage (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I login with invalid credential (passed : 22s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Checkout item</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I go to Homepage (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I login with valid credential (passed : 23s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I add products to cart (passed : 40s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I proceed to checkout without checking TOC (passed : 20s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I should see TOC warning (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I proceed to checkout after checking TOC (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I should be at payment section (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I logout from website (passed : 7s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- cucumber.lambdatest.java.testNG.runners.RunnerFeatures -->
+    </test> <!-- Tests in Firefox 82 Windows 7 -->
+  </suite> <!-- Lambda Test -->
+</testng-results>

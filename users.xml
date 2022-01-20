@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<users>
+    <user>
+        <id>validLogin</id>
+        <email>lt.testautomation21@gmail.com</email>
+        <password>Test@2021</password>
+    </user>
+    <user>
+        <id>invalidLogin</id>  
+        <email>lt.testautomation21@gmail.com</email>
+        <password>invalidpass</password>
+    </user>
+</users>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="246.248811">
+<testcase classname="Lambda Test Checkers" name="Valid Login" time="106.957915">
+<system-out><![CDATA[Given I go to Homepage......................................................passed
+Then I should see correct title page for Homepage...........................passed
+And I login with valid credential...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Lambda Test Checkers" name="Invalid Login" time="28.565642">
+<system-out><![CDATA[Given I go to Homepage......................................................passed
+Then I should see correct title page for Homepage...........................passed
+And I login with invalid credential.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Lambda Test Checkers" name="Checkout item" time="110.725254">
+<system-out><![CDATA[Given I go to Homepage......................................................passed
+And I login with valid credential...........................................passed
+When I add products to cart.................................................passed
+And I proceed to checkout without checking TOC..............................passed
+Then I should see TOC warning...............................................passed
+When I proceed to checkout after checking TOC...............................passed
+Then I should be at payment section.........................................passed
+And I logout from website...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
